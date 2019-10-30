@@ -3,23 +3,30 @@
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
+	</Events>
 	<ChildItems>
-		<UsualGroup name="ГрупппаНаименованиеПрефикс" id="40">
+		<UsualGroup name="ГруппаНаименованиеПрефикс" id="40">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Групппа наименование префикс</v8:content>
+					<v8:content>Группа наименование префикс</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Групппа наименование префикс</v8:content>
+					<v8:content>Группа наименование префикс</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Group>AlwaysHorizontal</Group>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГрупппаНаименованиеПрефиксРасширеннаяПодсказка" id="41"/>
+			<ExtendedTooltip name="ГруппаНаименованиеПрефиксРасширеннаяПодсказка" id="41"/>
 			<ChildItems>
 				<InputField name="Наименование" id="4">
 					<DataPath>Объект.Description</DataPath>
@@ -32,6 +39,9 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ПрефиксКонтекстноеМеню" id="35"/>
 					<ExtendedTooltip name="ПрефиксРасширеннаяПодсказка" id="36"/>
+					<Events>
+						<Event name="OnChange">ПрефиксПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="Код" id="1">
 					<DataPath>Объект.Code</DataPath>
@@ -110,6 +120,9 @@
 									</ChoiceList>
 									<ContextMenu name="ВидОрганизацииИПКонтекстноеМеню" id="57"/>
 									<ExtendedTooltip name="ВидОрганизацииИПРасширеннаяПодсказка" id="58"/>
+									<Events>
+										<Event name="OnChange">ВидОрганизацииЮридическоеЛицоПриИзменении</Event>
+									</Events>
 								</RadioButtonField>
 								<InputField name="ИнидивидуальныйПредприниматель" id="59">
 									<DataPath>Объект.ИнидивидуальныйПредприниматель</DataPath>
@@ -158,6 +171,9 @@
 									</ChoiceList>
 									<ContextMenu name="ВидОрганизацииЮридическоеЛицоКонтекстноеМеню" id="63"/>
 									<ExtendedTooltip name="ВидОрганизацииЮридическоеЛицоРасширеннаяПодсказка" id="64"/>
+									<Events>
+										<Event name="OnChange">ВидОрганизацииЮридическоеЛицоПриИзменении</Event>
+									</Events>
 								</RadioButtonField>
 								<InputField name="НаименованиеСокращенное" id="22">
 									<DataPath>Объект.НаименованиеСокращенное</DataPath>
@@ -289,6 +305,9 @@
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="СтранаРегистрацииКонтекстноеМеню" id="38"/>
 									<ExtendedTooltip name="СтранаРегистрацииРасширеннаяПодсказка" id="39"/>
+									<Events>
+										<Event name="ChoiceProcessing">СтранаРегистрацииОбработкаВыбора</Event>
+									</Events>
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
@@ -313,7 +332,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа контактная информация</v8:content>
+							<v8:content>Адреса, телефоны</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>

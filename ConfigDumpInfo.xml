@@ -125,7 +125,7 @@
 		<Metadata name="Catalog.ВерсииФайлов.Help" id="eb3dfdc7-58b8-4b1f-b079-368c262364c9.1" configVersion="1dcdc88024e4b7408d0285c08b5a0adb00000000"/>
 		<Metadata name="Catalog.ВерсииФайлов.ManagerModule" id="eb3dfdc7-58b8-4b1f-b079-368c262364c9.3" configVersion="d1c351043818f646933c1a1604a45aa400000000"/>
 		<Metadata name="Catalog.ВерсииФайлов.ObjectModule" id="eb3dfdc7-58b8-4b1f-b079-368c262364c9.0" configVersion="d5d5d25fe70400498b6579b132dd56dc00000000"/>
-		<Metadata name="Catalog.ВидыКонтактнойИнформации" id="782cb93d-36e6-4923-b2b6-75caa3459cd6" configVersion="9294488b32c3214f873379a358c5ae7c00000000">
+		<Metadata name="Catalog.ВидыКонтактнойИнформации" id="782cb93d-36e6-4923-b2b6-75caa3459cd6" configVersion="80daeb895596b84bbe563e5dc0645c1f00000000">
 			<Metadata name="Catalog.ВидыКонтактнойИнформации.Attribute.ТолькоНациональныйАдрес" id="0eea37cc-47f8-4819-85da-d4991f4e58ed"/>
 			<Metadata name="Catalog.ВидыКонтактнойИнформации.Attribute.ИмяГруппы" id="0f039952-09d3-49c8-b909-e8333a3fc8f9"/>
 			<Metadata name="Catalog.ВидыКонтактнойИнформации.Attribute.ВидПоляДругое" id="0f314b6b-5ed1-46ed-bdfd-cf53330c2783"/>
@@ -164,7 +164,7 @@
 		<Metadata name="Catalog.ВидыКонтактнойИнформации.Help" id="782cb93d-36e6-4923-b2b6-75caa3459cd6.1" configVersion="973c6424c113ab42ad2d18d74dac45b300000000"/>
 		<Metadata name="Catalog.ВидыКонтактнойИнформации.ManagerModule" id="782cb93d-36e6-4923-b2b6-75caa3459cd6.3" configVersion="41208cec8892b741b18f0c2703b4841300000000"/>
 		<Metadata name="Catalog.ВидыКонтактнойИнформации.ObjectModule" id="782cb93d-36e6-4923-b2b6-75caa3459cd6.0" configVersion="e6c23311e249984aa8ea2cff348fbe5800000000"/>
-		<Metadata name="Catalog.ВидыКонтактнойИнформации.Predefined" id="782cb93d-36e6-4923-b2b6-75caa3459cd6.1c" configVersion="36251ffa917a4c4ea3ba1fd5a417684d00000000"/>
+		<Metadata name="Catalog.ВидыКонтактнойИнформации.Predefined" id="782cb93d-36e6-4923-b2b6-75caa3459cd6.1c" configVersion="a5490cb0ad4a844b9260d4aa5fcaff9600000000"/>
 		<Metadata name="Catalog.ВнешниеПользователи" id="92876c9e-52ff-480d-9878-5766f4f9d12c" configVersion="ff9dbd1a9485134895c1139fd853723900000000">
 			<Metadata name="Catalog.ВнешниеПользователи.Attribute.ИдентификаторПользователяСервиса" id="02ac711c-e38e-422e-ac28-ba1b298df9cc"/>
 			<Metadata name="Catalog.ВнешниеПользователи.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство" id="3327b7d4-62fc-44cc-83b4-c449bfa4e706"/>
@@ -521,7 +521,7 @@
 		<Metadata name="Catalog.НаборыДополнительныхРеквизитовИСведений.ManagerModule" id="0a136ad9-22ad-4ba7-a31a-40a193b49d26.3" configVersion="ed629ae209c6294da273d74d3f2891b300000000"/>
 		<Metadata name="Catalog.НаборыДополнительныхРеквизитовИСведений.ObjectModule" id="0a136ad9-22ad-4ba7-a31a-40a193b49d26.0" configVersion="9e96ce681aca9240912db82e001114fa00000000"/>
 		<Metadata name="Catalog.НаборыДополнительныхРеквизитовИСведений.Predefined" id="0a136ad9-22ad-4ba7-a31a-40a193b49d26.1c" configVersion="6d592bf4c504a74a9d705627a059864f00000000"/>
-		<Metadata name="Catalog.Организации" id="c159d5d0-45b7-436f-8aa1-eec16a2c2eeb" configVersion="5cca3eb49d19cd4ea204bb876dec2b5000000000">
+		<Metadata name="Catalog.Организации" id="c159d5d0-45b7-436f-8aa1-eec16a2c2eeb" configVersion="17cb5b81397ff64b89fdb583fbaca9c800000000">
 			<Metadata name="Catalog.Организации.Attribute.Префикс" id="005a7ba2-8a16-45d4-abcc-b6ad16b6c8ce"/>
 			<Metadata name="Catalog.Организации.Attribute.ОсновнойБанковскийСчет" id="0f4caa1d-7a12-4310-972f-035413d6960a"/>
 			<Metadata name="Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.ДействуетС" id="1a206c98-4de5-4b61-98e7-78f3b5ce31e6"/>
@@ -554,8 +554,9 @@
 		<Metadata name="Catalog.Организации.Form.ФормаВыбора.Form" id="69ad0b32-ed90-4d9c-8cb4-904f7a68dcef.0" configVersion="c7289b13edb12b4d9f3dfc530fef8f4400000000"/>
 		<Metadata name="Catalog.Организации.Form.ФормаСписка" id="f743866b-b304-4b73-84ec-34fd67db7951" configVersion="d50c509f65f3104294704dbcbe17490300000000"/>
 		<Metadata name="Catalog.Организации.Form.ФормаСписка.Form" id="f743866b-b304-4b73-84ec-34fd67db7951.0" configVersion="f39f712d98e5f1419306eee0914c003300000000"/>
-		<Metadata name="Catalog.Организации.Form.ФормаЭлемента" id="c3e8e081-5135-496c-8ead-95d0892010a5" configVersion="c60e8381f7dc5542bb6a2382f8d786f400000000"/>
-		<Metadata name="Catalog.Организации.Form.ФормаЭлемента.Form" id="c3e8e081-5135-496c-8ead-95d0892010a5.0" configVersion="515e7bbf9415bf4ba89b9f4914923dc900000000"/>
+		<Metadata name="Catalog.Организации.Form.ФормаЭлемента" id="c3e8e081-5135-496c-8ead-95d0892010a5" configVersion="7b5070c9a2fdf64a9275b6e7eda50ac400000000"/>
+		<Metadata name="Catalog.Организации.Form.ФормаЭлемента.Form" id="c3e8e081-5135-496c-8ead-95d0892010a5.0" configVersion="514e402a10e2914e9712ebb08a31bdaf00000000"/>
+		<Metadata name="Catalog.Организации.ManagerModule" id="c159d5d0-45b7-436f-8aa1-eec16a2c2eeb.3" configVersion="875bd18df04b2f4f8808bb92b5b63f8600000000"/>
 		<Metadata name="Catalog.ПапкиФайлов" id="93701593-5ac8-4266-b471-7e9ed35a9c3e" configVersion="4f5583584c1aab4388deca5f7218fe3f00000000">
 			<Metadata name="Catalog.ПапкиФайлов.Attribute.Ответственный" id="04c45a51-4a8e-48fa-a39c-f67ce2079fc4"/>
 			<Metadata name="Catalog.ПапкиФайлов.Attribute.Описание" id="0fdb864e-ede9-4777-835c-0804968ee544"/>
@@ -1441,8 +1442,8 @@
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыСлужебныйВызовСервера.Module" id="3b033d29-0de7-49dd-90bc-f414b28426d7.0" configVersion="05a13dabd0743c49aa93f24a486c085a00000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыСлужебныйПовтИсп" id="97aaede5-d32f-4eba-b0e0-5ae5f094a8b7" configVersion="107e659341f58346aab942c4fbfaa1ee00000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыСлужебныйПовтИсп.Module" id="97aaede5-d32f-4eba-b0e0-5ae5f094a8b7.0" configVersion="533c482f35200a45aefe6a307930b90d00000000"/>
-		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыУД" id="b3921fce-30af-47f3-97c5-f2949b41b46e" configVersion="e1f3d7f473700749a1a25c6ce500c1cc00000000"/>
-		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыУД.Module" id="b3921fce-30af-47f3-97c5-f2949b41b46e.0" configVersion="8ec29a822bba554092832d1c10daecdd00000000"/>
+		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыУД" id="b3921fce-30af-47f3-97c5-f2949b41b46e" configVersion="7c4d915b23d49d4aaf2a3dcfcd5f6df200000000"/>
+		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыУД.Module" id="b3921fce-30af-47f3-97c5-f2949b41b46e.0" configVersion="ae7d2f2f554324438f2ac541ddc889af00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="75e77f99-b9d1-4bc0-93aa-c77a93d760d3" configVersion="8de5a0da02fd3f49b5c7bb947d87705a00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="75e77f99-b9d1-4bc0-93aa-c77a93d760d3.0" configVersion="2f09d04ee41ebe4e898eda79c0d6a4ad00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера" id="a2c36563-126d-4c3a-9714-5b7a4903073b" configVersion="b8385ff909cff746bb2ae6301f01666200000000"/>
@@ -2243,13 +2244,13 @@
 		<Metadata name="CommonTemplate.КомпонентаПечатиQRКода.Template" id="1ff8210b-26c5-4429-b580-7c6ec7c9b63a.0" configVersion="5084f7f10a76d744bedbb2f7d9b2771d00000000"/>
 		<Metadata name="CommonTemplate.ПолучениеДереваОбработчиковОбновления" id="88b879b7-1bb3-4478-b569-35bdb5c56939" configVersion="21c3ab9fbbd2c946a8f990224b078c8600000000"/>
 		<Metadata name="CommonTemplate.ПолучениеДереваОбработчиковОбновления.Template" id="88b879b7-1bb3-4478-b569-35bdb5c56939.0" configVersion="73b7fd4ef2cb024098cefe4bfd7090bb00000000"/>
-		<Metadata name="Configuration.УправлениеДокументами" id="6d0d1ded-6fb4-4134-8643-c42e537f7c7a" configVersion="6b4c68f7aad6194ea205ab67af91354c00000000"/>
+		<Metadata name="Configuration.УправлениеДокументами" id="6d0d1ded-6fb4-4134-8643-c42e537f7c7a" configVersion="128e062ec10e4f4c8780665cba74eda100000000"/>
 		<Metadata name="Configuration.УправлениеДокументами.CommandInterface" id="8cf53288-2067-4904-a7c5-159469f02076.a" configVersion="0cdb9fdde95e3c41bfbf47d7153a5c7100000000"/>
 		<Metadata name="Configuration.УправлениеДокументами.ExternalConnectionModule" id="8cf53288-2067-4904-a7c5-159469f02076.5" configVersion="920a29be0fe26d4cb1a638c1171b0efa00000000"/>
 		<Metadata name="Configuration.УправлениеДокументами.MainSectionPicture" id="8cf53288-2067-4904-a7c5-159469f02076.c" configVersion="1a10eba0c2d231428b0d168d9525bfd600000000"/>
 		<Metadata name="Configuration.УправлениеДокументами.ManagedApplicationModule" id="8cf53288-2067-4904-a7c5-159469f02076.6" configVersion="7b89473bd409104eb079d2ddacb472d400000000"/>
 		<Metadata name="Configuration.УправлениеДокументами.OrdinaryApplicationModule" id="8cf53288-2067-4904-a7c5-159469f02076.0" configVersion="6d2fd97cfcf94f488105045433b49a5100000000"/>
-		<Metadata name="Configuration.УправлениеДокументами.ParentConfigurations" id="8cf53288-2067-4904-a7c5-159469f02076.4" configVersion="65d058b4368bbd42b4a28b97789cae3000000000"/>
+		<Metadata name="Configuration.УправлениеДокументами.ParentConfigurations" id="8cf53288-2067-4904-a7c5-159469f02076.4" configVersion="4054b75f0e6bb54bac8e76f0947548ce00000000"/>
 		<Metadata name="Configuration.УправлениеДокументами.SessionModule" id="8cf53288-2067-4904-a7c5-159469f02076.7" configVersion="5b21868dfec2464493278c87674214f400000000"/>
 		<Metadata name="Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности" id="9893e2d6-f3f8-4d73-bb06-19bf26d216ab" configVersion="4cc6c2ae4acc6742841cbe6ef4e6a71e00000000"/>
 		<Metadata name="Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности.ValueManagerModule" id="9893e2d6-f3f8-4d73-bb06-19bf26d216ab.0" configVersion="468f45bf341fb247bf296f44f5ef040a00000000"/>
