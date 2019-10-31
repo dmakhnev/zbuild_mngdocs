@@ -5,7 +5,9 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
 		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
 		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
@@ -276,18 +278,24 @@
 										<InputField name="ИНН" id="10">
 											<DataPath>Объект.ИНН</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ИННКонтекстноеМеню" id="11"/>
 											<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="12"/>
 										</InputField>
 										<InputField name="КПП" id="13">
 											<DataPath>Объект.КПП</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<Width>9</Width>
+											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="КППКонтекстноеМеню" id="14"/>
 											<ExtendedTooltip name="КППРасширеннаяПодсказка" id="15"/>
 										</InputField>
 										<InputField name="ОГРН" id="28">
 											<DataPath>Объект.ОГРН</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<Width>15</Width>
+											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ОГРНКонтекстноеМеню" id="29"/>
 											<ExtendedTooltip name="ОГРНРасширеннаяПодсказка" id="30"/>
 										</InputField>
@@ -309,6 +317,14 @@
 										<Event name="ChoiceProcessing">СтранаРегистрацииОбработкаВыбора</Event>
 									</Events>
 								</InputField>
+								<CheckBoxField name="НеСинхронизироватьДокументы" id="25">
+									<DataPath>Объект.НеСинхронизироватьДокументы</DataPath>
+									<TitleLocation>Right</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="НеСинхронизироватьДокументыКонтекстноеМеню" id="26"/>
+									<ExtendedTooltip name="НеСинхронизироватьДокументыРасширеннаяПодсказка" id="27"/>
+								</CheckBoxField>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
@@ -327,6 +343,93 @@
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="СтраницаДополнительноеРасширеннаяПодсказка" id="47"/>
+					<ChildItems>
+						<UsualGroup name="ПодписиИПечати" id="67">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подписи и печати</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подписи и печати</v8:content>
+								</v8:item>
+							</ToolTip>
+							<VerticalStretch>false</VerticalStretch>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ПодписиИПечатиРасширеннаяПодсказка" id="68"/>
+							<ChildItems>
+								<UsualGroup name="ПечатьОрганизации" id="69">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Печать организации</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Печать организации</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Width>20</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Representation>None</Representation>
+									<ExtendedTooltip name="ПечатьОрганизацииРасширеннаяПодсказка" id="70"/>
+								</UsualGroup>
+								<UsualGroup name="ПодписьДиректора" id="71">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подпись директора</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подпись директора</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Width>20</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Representation>None</Representation>
+									<ExtendedTooltip name="ПодписьДиректораРасширеннаяПодсказка" id="72"/>
+								</UsualGroup>
+								<UsualGroup name="ПодписьГлавногоБухгалтера" id="73">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подпись главного бухгалтера</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подпись главного бухгалтера</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Width>20</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Representation>None</Representation>
+									<ExtendedTooltip name="ПодписьГлавногоБухгалтераРасширеннаяПодсказка" id="74"/>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<Button name="ГиперссылкаПоказатьИнструкциюПоСозданиюФаксимильнойПодписиИПечати" id="75">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ПоказатьИнструкциюПоСозданиюФаксимильнойПодписиИПечати</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Инструкция "Как сделать факсимильную подпись и печать"</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ГиперссылкаПоказатьИнструкциюПоСозданиюФаксимильнойПодписиИПечатиРасширеннаяПодсказка" id="76"/>
+						</Button>
+					</ChildItems>
 				</Page>
 				<Page name="ГруппаКонтактнаяИнформация" id="48">
 					<Title>
@@ -345,14 +448,6 @@
 				</Page>
 			</ChildItems>
 		</Pages>
-		<CheckBoxField name="НеСинхронизироватьДокументы" id="25">
-			<DataPath>Объект.НеСинхронизироватьДокументы</DataPath>
-			<TitleLocation>Right</TitleLocation>
-			<EditMode>EnterOnInput</EditMode>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="НеСинхронизироватьДокументыКонтекстноеМеню" id="26"/>
-			<ExtendedTooltip name="НеСинхронизироватьДокументыРасширеннаяПодсказка" id="27"/>
-		</CheckBoxField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -379,4 +474,33 @@
 			</Type>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ПоказатьИнструкциюПоСозданиюФаксимильнойПодписиИПечати" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать инструкцию по созданию факсимильной подписи и печати</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать инструкцию по созданию факсимильной подписи и печати</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоказатьИнструкциюПоСозданиюФаксимильнойПодписиИПечати</Action>
+		</Command>
+	</Commands>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>CommonCommand.ПрисоединенныеФайлы</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
 </Form>

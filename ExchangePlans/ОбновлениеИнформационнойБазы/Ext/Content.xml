@@ -509,6 +509,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Catalog.Организации</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Constant.ПрефиксУзлаРаспределеннойИнформационнойБазы</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -542,6 +546,10 @@
 	</Item>
 	<Item>
 		<Metadata>Catalog.ГруппыДоступа</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.ОрганизацииПрисоединенныеФайлы</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

@@ -909,6 +909,7 @@
 			<EventSubscription>ОтменитьОтправкуДанныхУзлаВРаспределеннойИнформационнойБазе</EventSubscription>
 			<EventSubscription>ОчиститьИнформациюОбАвтореВерсии</EventSubscription>
 			<EventSubscription>ОчиститьСсылкиНаУзелИнформационнойБазы</EventSubscription>
+			<EventSubscription>ПереопределитьПолучаемуюФормуПрисоединенногоФайла</EventSubscription>
 			<EventSubscription>ПриОтправкеДанныхГлавному</EventSubscription>
 			<EventSubscription>ПриОтправкеДанныхПодчиненному</EventSubscription>
 			<EventSubscription>ПриПолученииДанныхОтГлавного</EventSubscription>
@@ -1215,6 +1216,7 @@
 			<Catalog>НаборыГруппДоступа</Catalog>
 			<Catalog>НаборыДополнительныхРеквизитовИСведений</Catalog>
 			<Catalog>Организации</Catalog>
+			<Catalog>ОрганизацииПрисоединенныеФайлы</Catalog>
 			<Catalog>ПапкиФайлов</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>ПользовательскиеНастройкиОтчетов</Catalog>

@@ -21,6 +21,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Организации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ФизическиеЛица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОрганизацииПрисоединенныеФайлы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
