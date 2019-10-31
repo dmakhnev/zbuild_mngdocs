@@ -125,7 +125,7 @@
 									</Events>
 								</RadioButtonField>
 								<InputField name="ИнидивидуальныйПредприниматель" id="59">
-									<DataPath>Объект.ИнидивидуальныйПредприниматель</DataPath>
+									<DataPath>Объект.ИндивидуальныйПредприниматель</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<ContextMenu name="ИнидивидуальныйПредпринимательКонтекстноеМеню" id="60"/>
 									<ExtendedTooltip name="ИнидивидуальныйПредпринимательРасширеннаяПодсказка" id="61"/>

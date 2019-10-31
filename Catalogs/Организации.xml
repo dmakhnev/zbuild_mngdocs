@@ -149,11 +149,11 @@
 			</Attribute>
 			<Attribute uuid="e5bf8fb3-65b5-4ee5-aa0d-9afc0cea0cf8">
 				<Properties>
-					<Name>ИнидивидуальныйПредприниматель</Name>
+					<Name>ИндивидуальныйПредприниматель</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Инидивидуальный предприниматель</v8:content>
+							<v8:content>Индивидуальный предприниматель</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

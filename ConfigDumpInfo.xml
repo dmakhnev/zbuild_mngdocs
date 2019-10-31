@@ -521,7 +521,7 @@
 		<Metadata name="Catalog.НаборыДополнительныхРеквизитовИСведений.ManagerModule" id="0a136ad9-22ad-4ba7-a31a-40a193b49d26.3" configVersion="ed629ae209c6294da273d74d3f2891b300000000"/>
 		<Metadata name="Catalog.НаборыДополнительныхРеквизитовИСведений.ObjectModule" id="0a136ad9-22ad-4ba7-a31a-40a193b49d26.0" configVersion="9e96ce681aca9240912db82e001114fa00000000"/>
 		<Metadata name="Catalog.НаборыДополнительныхРеквизитовИСведений.Predefined" id="0a136ad9-22ad-4ba7-a31a-40a193b49d26.1c" configVersion="6d592bf4c504a74a9d705627a059864f00000000"/>
-		<Metadata name="Catalog.Организации" id="c159d5d0-45b7-436f-8aa1-eec16a2c2eeb" configVersion="17cb5b81397ff64b89fdb583fbaca9c800000000">
+		<Metadata name="Catalog.Организации" id="c159d5d0-45b7-436f-8aa1-eec16a2c2eeb" configVersion="154d837f1d30fe4e92750b1909bd642b00000000">
 			<Metadata name="Catalog.Организации.Attribute.Префикс" id="005a7ba2-8a16-45d4-abcc-b6ad16b6c8ce"/>
 			<Metadata name="Catalog.Организации.Attribute.ОсновнойБанковскийСчет" id="0f4caa1d-7a12-4310-972f-035413d6960a"/>
 			<Metadata name="Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.ДействуетС" id="1a206c98-4de5-4b61-98e7-78f3b5ce31e6"/>
@@ -543,7 +543,7 @@
 			<Metadata name="Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.Представление" id="d7fb29da-1438-42d4-bcf8-82e461ff7ab1"/>
 			<Metadata name="Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.Тип" id="d9e691b2-6f8d-4297-938f-f2a01183c9a3"/>
 			<Metadata name="Catalog.Организации.Attribute.ИНН" id="da304e5c-c51b-408c-98e3-657756d9d484"/>
-			<Metadata name="Catalog.Организации.Attribute.ИнидивидуальныйПредприниматель" id="e5bf8fb3-65b5-4ee5-aa0d-9afc0cea0cf8"/>
+			<Metadata name="Catalog.Организации.Attribute.ИндивидуальныйПредприниматель" id="e5bf8fb3-65b5-4ee5-aa0d-9afc0cea0cf8"/>
 			<Metadata name="Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.ВидДляСписка" id="e6333116-4780-4fa6-88ff-54688a346ba9"/>
 			<Metadata name="Catalog.Организации.Attribute.ГоловнаяОрганизация" id="e84d3fa4-9c32-4ad8-bb83-4b36dc9d4bfe"/>
 			<Metadata name="Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.Город" id="f16efc28-a1f2-4af1-9a0e-d5bc241d364b"/>
@@ -556,7 +556,7 @@
 		<Metadata name="Catalog.Организации.Form.ФормаСписка.Form" id="f743866b-b304-4b73-84ec-34fd67db7951.0" configVersion="f39f712d98e5f1419306eee0914c003300000000"/>
 		<Metadata name="Catalog.Организации.Form.ФормаЭлемента" id="c3e8e081-5135-496c-8ead-95d0892010a5" configVersion="7b5070c9a2fdf64a9275b6e7eda50ac400000000"/>
 		<Metadata name="Catalog.Организации.Form.ФормаЭлемента.Form" id="c3e8e081-5135-496c-8ead-95d0892010a5.0" configVersion="514e402a10e2914e9712ebb08a31bdaf00000000"/>
-		<Metadata name="Catalog.Организации.ManagerModule" id="c159d5d0-45b7-436f-8aa1-eec16a2c2eeb.3" configVersion="875bd18df04b2f4f8808bb92b5b63f8600000000"/>
+		<Metadata name="Catalog.Организации.ManagerModule" id="c159d5d0-45b7-436f-8aa1-eec16a2c2eeb.3" configVersion="694a504481b48a4d817404b306887da200000000"/>
 		<Metadata name="Catalog.ПапкиФайлов" id="93701593-5ac8-4266-b471-7e9ed35a9c3e" configVersion="4f5583584c1aab4388deca5f7218fe3f00000000">
 			<Metadata name="Catalog.ПапкиФайлов.Attribute.Ответственный" id="04c45a51-4a8e-48fa-a39c-f67ce2079fc4"/>
 			<Metadata name="Catalog.ПапкиФайлов.Attribute.Описание" id="0fdb864e-ede9-4777-835c-0804968ee544"/>
