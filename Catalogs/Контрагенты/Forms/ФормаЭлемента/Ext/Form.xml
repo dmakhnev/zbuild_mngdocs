@@ -4,7 +4,12 @@
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаШапка" id="46">
@@ -114,6 +119,9 @@
 				</v8:item>
 			</ToolTip>
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="53"/>
+			<Events>
+				<Event name="OnCurrentPageChange">СтраницыПриСменеСтраницы</Event>
+			</Events>
 			<ChildItems>
 				<Page name="СтраницаОсновные" id="54">
 					<Title>
@@ -265,6 +273,15 @@
 							<ExtendedTooltip name="ОсновноеКонтактноеЛицоРасширеннаяПодсказка" id="33"/>
 						</InputField>
 					</ChildItems>
+				</Page>
+				<Page name="СтраницаДополнительныеРеквизиты" id="62">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доп. реквизиты</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаДополнительныеРеквизитыРасширеннаяПодсказка" id="63"/>
 				</Page>
 			</ChildItems>
 		</Pages>

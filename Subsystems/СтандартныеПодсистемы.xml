@@ -19,8 +19,8 @@
 		<ChildObjects>
 			<Subsystem>АдресныйКлассификатор</Subsystem>
 			<Subsystem>БазоваяФункциональность</Subsystem>
-			<Subsystem>Валюты</Subsystem>
 			<Subsystem>Банки</Subsystem>
+			<Subsystem>Валюты</Subsystem>
 			<Subsystem>ВариантыОтчетов</Subsystem>
 			<Subsystem>ВерсионированиеОбъектов</Subsystem>
 			<Subsystem>ДополнительныеОтчетыИОбработки</Subsystem>
