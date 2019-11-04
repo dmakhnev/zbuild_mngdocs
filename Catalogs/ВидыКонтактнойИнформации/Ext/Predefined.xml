@@ -1,5 +1,43 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.9">
+	<Item id="35b8c715-62dd-4c95-8f5c-3f78412f25d9">
+		<Name>СправочникКонтрагенты</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Контрагенты"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="1d3f2abb-4414-40b8-8498-ed8676cc7229">
+				<Name>SkypeКонтрагента</Name>
+				<Code/>
+				<Description>Skype</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b603199b-383e-42ab-86ff-5f21281c0afd">
+				<Name>АдресКонтрагента</Name>
+				<Code/>
+				<Description>Адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c9b8cdd6-e2ab-4b20-b633-b1af2024f5d2">
+				<Name>ВебСайтКонтрагента</Name>
+				<Code/>
+				<Description>Веб-сайт</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="e81767f8-8f78-4f71-bd24-5957deda9bf8">
+				<Name>ТелефонКонтрагента</Name>
+				<Code/>
+				<Description>Телефон</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2165a338-7e79-440e-a1b3-9d196e44bb18">
+				<Name>EmailКонтрагента</Name>
+				<Code/>
+				<Description>Электронная почта</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
 	<Item id="e45d73b8-77f7-464a-bc89-a5206a83fc81">
 		<Name>СправочникОрганизации</Name>
 		<Code/>

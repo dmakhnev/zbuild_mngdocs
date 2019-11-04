@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>3.0.2.1</Version>
+			<Version>3.0.2.2</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -909,6 +909,7 @@
 			<EventSubscription>ОтменитьОтправкуДанныхУзлаВРаспределеннойИнформационнойБазе</EventSubscription>
 			<EventSubscription>ОчиститьИнформациюОбАвтореВерсии</EventSubscription>
 			<EventSubscription>ОчиститьСсылкиНаУзелИнформационнойБазы</EventSubscription>
+			<EventSubscription>ПереопределитьПолучаемуюФормуПрисоединенногоФайла</EventSubscription>
 			<EventSubscription>ПриОтправкеДанныхГлавному</EventSubscription>
 			<EventSubscription>ПриОтправкеДанныхПодчиненному</EventSubscription>
 			<EventSubscription>ПриПолученииДанныхОтГлавного</EventSubscription>
@@ -1203,6 +1204,7 @@
 			<Catalog>ГруппыВнешнихПользователей</Catalog>
 			<Catalog>ГруппыДоступа</Catalog>
 			<Catalog>ГруппыПользователей</Catalog>
+			<Catalog>ДоговорыКонтрагентов</Catalog>
 			<Catalog>ДополнительныеОтчетыИОбработки</Catalog>
 			<Catalog>ЗначенияСвойствОбъектов</Catalog>
 			<Catalog>ЗначенияСвойствОбъектовИерархия</Catalog>
@@ -1211,10 +1213,12 @@
 			<Catalog>ИдентификаторыСервисовСопровождения</Catalog>
 			<Catalog>КлассификаторБанков</Catalog>
 			<Catalog>КлючиДоступа</Catalog>
+			<Catalog>КонтактныеЛица</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>НаборыГруппДоступа</Catalog>
 			<Catalog>НаборыДополнительныхРеквизитовИСведений</Catalog>
 			<Catalog>Организации</Catalog>
+			<Catalog>ОрганизацииПрисоединенныеФайлы</Catalog>
 			<Catalog>ПапкиФайлов</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>ПользовательскиеНастройкиОтчетов</Catalog>
@@ -1275,6 +1279,7 @@
 			<Enum>ФорматыХраненияМногостраничныхФайлов</Enum>
 			<Enum>ФорматыХраненияОдностраничныхФайлов</Enum>
 			<Enum>ЦветностиИзображения</Enum>
+			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<Report>АнализВерсийОбъектов</Report>
 			<Report>ДосьеКонтрагента</Report>
 			<Report>ИспользуемыеВнешниеРесурсы</Report>
