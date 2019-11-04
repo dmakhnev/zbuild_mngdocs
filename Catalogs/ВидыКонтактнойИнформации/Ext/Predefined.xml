@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.9">
+	<Item id="35b8c715-62dd-4c95-8f5c-3f78412f25d9">
+		<Name>СправочникКонтрагенты</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Контрагенты"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="1d3f2abb-4414-40b8-8498-ed8676cc7229">
+				<Name>SkypeКонтрагента</Name>
+				<Code/>
+				<Description>Skype</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b603199b-383e-42ab-86ff-5f21281c0afd">
+				<Name>АдресКонтрагента</Name>
+				<Code/>
+				<Description>Адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c9b8cdd6-e2ab-4b20-b633-b1af2024f5d2">
+				<Name>ВебСайтКонтрагента</Name>
+				<Code/>
+				<Description>Веб-сайт</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="e81767f8-8f78-4f71-bd24-5957deda9bf8">
+				<Name>ТелефонКонтрагента</Name>
+				<Code/>
+				<Description>Телефон</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2165a338-7e79-440e-a1b3-9d196e44bb18">
+				<Name>EmailКонтрагента</Name>
+				<Code/>
+				<Description>Электронная почта</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="e45d73b8-77f7-464a-bc89-a5206a83fc81">
+		<Name>СправочникОрганизации</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Организации"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="ba72ce84-e051-4bf7-a2e5-cc0b88dd4238">
+				<Name>EmailОрганизации</Name>
+				<Code/>
+				<Description>Email</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="884dc0a3-70fe-44f0-a08e-583f7f3aae57">
+				<Name>ДругаяИнформацияОрганизации</Name>
+				<Code/>
+				<Description>Другое</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="8aa2772e-d27b-4249-82f1-ad3aecd81fd5">
+				<Name>ПочтовыйАдресОрганизации</Name>
+				<Code/>
+				<Description>Почтовый адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="5fb44601-072d-4e82-8292-090ab0779701">
+				<Name>ТелефонОрганизации</Name>
+				<Code/>
+				<Description>Телефон</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3e57d1a7-e9ff-4297-9ae5-0684850e514d">
+				<Name>ФаксОрганизации</Name>
+				<Code/>
+				<Description>Факс</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="796b18c9-594e-4974-86e8-052084c0354d">
+				<Name>ФактАдресОрганизации</Name>
+				<Code/>
+				<Description>Фактический адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f0cffe32-55ae-4f4b-ba29-ace9ac3e4391">
+				<Name>ЮрАдресОрганизации</Name>
+				<Code/>
+				<Description>Юридический адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="8cbaa30d-faab-45ad-880e-84f8b421f448">
+		<Name>СправочникПользователи</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Пользователи"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="35dccbf2-dcce-4160-91a0-9697dd21aa79">
+				<Name>ТелефонПользователя</Name>
+				<Code/>
+				<Description>Телефон</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b930f2d1-4c2b-4f78-a697-4b87e83c8dd0">
+				<Name>EmailПользователя</Name>
+				<Code/>
+				<Description>Электронная почта</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

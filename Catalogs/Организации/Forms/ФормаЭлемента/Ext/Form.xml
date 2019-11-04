@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаНаименованиеПрефикс" id="40">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа наименование префикс</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа наименование префикс</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНаименованиеПрефиксРасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Префикс" id="34">
+					<DataPath>Объект.Префикс</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПрефиксКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ПрефиксРасширеннаяПодсказка" id="36"/>
+					<Events>
+						<Event name="OnChange">ПрефиксПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="ГруппаСтраницы" id="42">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="43"/>
+			<ChildItems>
+				<Page name="СтраницаГлавное" id="44">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Главное</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница главное</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаГлавноеРасширеннаяПодсказка" id="45"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаИндивидуальныйПредприниматель" id="50">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа индивидуальный предприниматель</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа индивидуальный предприниматель</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаИндивидуальныйПредпринимательРасширеннаяПодсказка" id="51"/>
+							<ChildItems>
+								<RadioButtonField name="ВидОрганизацииИП" id="56">
+									<DataPath>ВидОрганизации</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ItemTitleHeight>2</ItemTitleHeight>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Индивидуальный предприниматель</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">1</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ВидОрганизацииИПКонтекстноеМеню" id="57"/>
+									<ExtendedTooltip name="ВидОрганизацииИПРасширеннаяПодсказка" id="58"/>
+									<Events>
+										<Event name="OnChange">ВидОрганизацииЮридическоеЛицоПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<InputField name="ИнидивидуальныйПредприниматель" id="59">
+									<DataPath>Объект.ИндивидуальныйПредприниматель</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="ИнидивидуальныйПредпринимательКонтекстноеМеню" id="60"/>
+									<ExtendedTooltip name="ИнидивидуальныйПредпринимательРасширеннаяПодсказка" id="61"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНаименование" id="52">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа наименование</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа наименование</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ThroughAlign>Use</ThroughAlign>
+							<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="53"/>
+							<ChildItems>
+								<RadioButtonField name="ВидОрганизацииЮридическоеЛицо" id="62">
+									<DataPath>ВидОрганизации</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Юридическое лицо</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">0</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ВидОрганизацииЮридическоеЛицоКонтекстноеМеню" id="63"/>
+									<ExtendedTooltip name="ВидОрганизацииЮридическоеЛицоРасширеннаяПодсказка" id="64"/>
+									<Events>
+										<Event name="OnChange">ВидОрганизацииЮридическоеЛицоПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<InputField name="НаименованиеСокращенное" id="22">
+									<DataPath>Объект.НаименованиеСокращенное</DataPath>
+									<TitleHeight>2</TitleHeight>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Официальное сокращенное наименование по учредительным документам</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<EditMode>EnterOnInput</EditMode>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ООО "Ромашка"</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="НаименованиеСокращенноеКонтекстноеМеню" id="23"/>
+									<ExtendedTooltip name="НаименованиеСокращенноеРасширеннаяПодсказка" id="24"/>
+								</InputField>
+								<InputField name="НаименованиеМеждународное" id="16">
+									<DataPath>Объект.НаименованиеМеждународное</DataPath>
+									<TitleHeight>2</TitleHeight>
+									<EditMode>EnterOnInput</EditMode>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Romashka Limited Liability Company</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="НаименованиеМеждународноеКонтекстноеМеню" id="17"/>
+									<ExtendedTooltip name="НаименованиеМеждународноеРасширеннаяПодсказка" id="18"/>
+								</InputField>
+								<InputField name="НаименованиеПолное" id="19">
+									<DataPath>Объект.НаименованиеПолное</DataPath>
+									<TitleLocation>Left</TitleLocation>
+									<TitleHeight>2</TitleHeight>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Официальное полное наименование по учердительным документам</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<EditMode>EnterOnInput</EditMode>
+									<MultiLine>true</MultiLine>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Общество с ограниченной ответственностью "Ромашка"</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="20"/>
+									<ExtendedTooltip name="НаименованиеПолноеРасширеннаяПодсказка" id="21"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаРеквизитыОрганизации" id="54">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа реквизиты организации</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа реквизиты организации</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ThroughAlign>Use</ThroughAlign>
+							<ExtendedTooltip name="ГруппаРеквизитыОрганизацииРасширеннаяПодсказка" id="55"/>
+							<ChildItems>
+								<InputField name="ГоловнаяОрганизация" id="7">
+									<DataPath>Объект.ГоловнаяОрганизация</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ГоловнаяОрганизацияКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="ГоловнаяОрганизацияРасширеннаяПодсказка" id="9"/>
+								</InputField>
+								<UsualGroup name="ГруппаКоды" id="65">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа коды</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа коды</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ShowTitle>false</ShowTitle>
+									<ThroughAlign>Use</ThroughAlign>
+									<ExtendedTooltip name="ГруппаКодыРасширеннаяПодсказка" id="66"/>
+									<ChildItems>
+										<InputField name="ИНН" id="10">
+											<DataPath>Объект.ИНН</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ИННКонтекстноеМеню" id="11"/>
+											<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="12"/>
+										</InputField>
+										<InputField name="КПП" id="13">
+											<DataPath>Объект.КПП</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>9</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="КППКонтекстноеМеню" id="14"/>
+											<ExtendedTooltip name="КППРасширеннаяПодсказка" id="15"/>
+										</InputField>
+										<InputField name="ОГРН" id="28">
+											<DataPath>Объект.ОГРН</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>15</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ОГРНКонтекстноеМеню" id="29"/>
+											<ExtendedTooltip name="ОГРНРасширеннаяПодсказка" id="30"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<InputField name="ОсновнойБанковскийСчет" id="31">
+									<DataPath>Объект.ОсновнойБанковскийСчет</DataPath>
+									<TitleHeight>2</TitleHeight>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОсновнойБанковскийСчетКонтекстноеМеню" id="32"/>
+									<ExtendedTooltip name="ОсновнойБанковскийСчетРасширеннаяПодсказка" id="33"/>
+								</InputField>
+								<InputField name="СтранаРегистрации" id="37">
+									<DataPath>Объект.СтранаРегистрации</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СтранаРегистрацииКонтекстноеМеню" id="38"/>
+									<ExtendedTooltip name="СтранаРегистрацииРасширеннаяПодсказка" id="39"/>
+									<Events>
+										<Event name="ChoiceProcessing">СтранаРегистрацииОбработкаВыбора</Event>
+									</Events>
+								</InputField>
+								<CheckBoxField name="НеСинхронизироватьДокументы" id="25">
+									<DataPath>Объект.НеСинхронизироватьДокументы</DataPath>
+									<TitleLocation>Right</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="НеСинхронизироватьДокументыКонтекстноеМеню" id="26"/>
+									<ExtendedTooltip name="НеСинхронизироватьДокументыРасширеннаяПодсказка" id="27"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаДополнительное" id="46">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительное</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница дополнительное</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаДополнительноеРасширеннаяПодсказка" id="47"/>
+					<ChildItems>
+						<UsualGroup name="ПодписиИПечати" id="67">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подписи и печати</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подписи и печати</v8:content>
+								</v8:item>
+							</ToolTip>
+							<VerticalStretch>false</VerticalStretch>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ПодписиИПечатиРасширеннаяПодсказка" id="68"/>
+							<ChildItems>
+								<UsualGroup name="ПечатьОрганизации" id="69">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Печать организации</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Печать организации</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Width>20</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Representation>None</Representation>
+									<ExtendedTooltip name="ПечатьОрганизацииРасширеннаяПодсказка" id="70"/>
+								</UsualGroup>
+								<UsualGroup name="ПодписьДиректора" id="71">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подпись директора</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подпись директора</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Width>20</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Representation>None</Representation>
+									<ExtendedTooltip name="ПодписьДиректораРасширеннаяПодсказка" id="72"/>
+								</UsualGroup>
+								<UsualGroup name="ПодписьГлавногоБухгалтера" id="73">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подпись главного бухгалтера</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подпись главного бухгалтера</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Width>20</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Representation>None</Representation>
+									<ExtendedTooltip name="ПодписьГлавногоБухгалтераРасширеннаяПодсказка" id="74"/>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<Button name="ГиперссылкаПоказатьИнструкциюПоСозданиюФаксимильнойПодписиИПечати" id="75">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ПоказатьИнструкциюПоСозданиюФаксимильнойПодписиИПечати</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Инструкция "Как сделать факсимильную подпись и печать"</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ГиперссылкаПоказатьИнструкциюПоСозданиюФаксимильнойПодписиИПечатиРасширеннаяПодсказка" id="76"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаКонтактнаяИнформация" id="48">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адреса, телефоны</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа контактная информация</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаКонтактнаяИнформацияРасширеннаяПодсказка" id="49"/>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Организации</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ВидОрганизации" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид организации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПоказатьИнструкциюПоСозданиюФаксимильнойПодписиИПечати" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать инструкцию по созданию факсимильной подписи и печати</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать инструкцию по созданию факсимильной подписи и печати</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоказатьИнструкциюПоСозданиюФаксимильнойПодписиИПечати</Action>
+		</Command>
+	</Commands>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>CommonCommand.ПрисоединенныеФайлы</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>
