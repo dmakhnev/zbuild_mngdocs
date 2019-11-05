@@ -1,7 +1,46 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.9">
 	<ConfigVersions>
-		<Metadata name="Catalog.БанковскиеСчета" id="dcf212c6-53dd-4219-aa8f-175b8f8446c7" configVersion="a221c1f7f230c8479747e9872f89ceac00000000"/>
+		<Metadata name="Catalog.БанковскиеСчета" id="dcf212c6-53dd-4219-aa8f-175b8f8446c7" configVersion="4bafeeee94cd464a8ef7e34b4e26c60700000000">
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.ТекстКорреспондента" id="01360378-f4fa-4d39-a336-fd412cb25530"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.Банк" id="055d10b4-b172-4a15-8889-07daa7a3c3de"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.НаименованиеБанка" id="1a6cea2e-5ea8-4c4e-98fa-43ec3b338178"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.КоррСчетБанкаДляРасчетов" id="1f8547ec-5f1f-4c3c-aa7e-597a2e41560e"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.БИКБанкаДляРасчетов" id="2d2697ec-6ab3-4112-ad27-b5ca6bbcd579"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.АдресБанкаДляРасчетов" id="3693d207-f97c-4a63-beca-d0a05a8725a1"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.МесяцПрописью" id="49da6609-0bfd-4303-b37c-8eb678cfc49b"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.БанкДляРасчетов" id="54a578d3-a2b0-4c9d-b705-1718074bf2fa"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.ГородБанкаДляРасчетов" id="54f002cc-9b63-40bd-a607-8dcec65dfd6d"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.ТелефоныБанка" id="674b3b31-81f2-4dc8-804a-b6d107c91fa5"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.НаименованиеБанкаДляРасчетов" id="6a256515-3697-4e95-a350-353c34e63ec7"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.Зарубежный" id="782477e5-fb0a-42b2-9480-ad0500970264"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.Валюта" id="8f6ae5d9-12d0-4bad-b9ad-788777557843"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.ГородБанка" id="91f01bf2-6d09-4109-aaef-ebc0bd1bc5e7"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.БИКБанка" id="9afde1f6-457b-46c9-ae66-8e478797badf"/>
+			<Metadata name="Catalog.БанковскиеСчета.Command.БанковскиеСчета" id="9f4973f4-8fb4-47bf-ba56-43ba041c35a2"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.РучноеИзменениеРеквизитовБанка" id="afefcc97-2604-43cc-983f-e61e88350a38"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.АдресБанка" id="bfa4684c-bdd5-4bdb-81e4-8f16404bce53"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.НомерСчета" id="c6b95349-5a96-4d4e-849b-f4a94020a95c"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.СВИФТБИКДляРасчетов" id="d34a440b-ff1b-42b6-8819-a909279fb27b"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.ТекстНазначенияПлатежа" id="d45f662b-4ac8-4ccf-8225-683187d8971d"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.СВИФТБИК" id="e97086cf-8f68-4d4e-ae0f-16440ca13e63"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.ВыводитьСуммуБезКопеек" id="ea04b4a5-a948-4172-89b6-8a1592f8dfb3"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.Комментарий" id="ecbf2cdf-254d-41b5-bfb5-a854ded7a475"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.ТелефоныБанкаДляРасчетов" id="f9c6a583-6c1c-43dd-a8a2-9c787c2753c0"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.РучноеИзменениеРеквизитовБанкаДляРасчетов" id="fcd98d07-01bd-479d-86ec-65087e0158e7"/>
+			<Metadata name="Catalog.БанковскиеСчета.Attribute.КоррСчетБанка" id="fcf08c95-2eb9-4c40-9193-40e05d38e461"/>
+		</Metadata>
+		<Metadata name="Catalog.БанковскиеСчета.Command.БанковскиеСчета.CommandModule" id="9f4973f4-8fb4-47bf-ba56-43ba041c35a2.2" configVersion="78837555e026594aa9e2411e708b50ed00000000"/>
+		<Metadata name="Catalog.БанковскиеСчета.Form.РеквизитыБанка" id="579a65b9-00df-4e52-9ab3-de4de1218935" configVersion="21e7a6b3c708bd4692a3eb7da6a6108b00000000"/>
+		<Metadata name="Catalog.БанковскиеСчета.Form.РеквизитыБанка.Form" id="579a65b9-00df-4e52-9ab3-de4de1218935.0" configVersion="b6357f0f83b8774ebd19af89ced5944300000000"/>
+		<Metadata name="Catalog.БанковскиеСчета.Form.РеквизитыБанка.Help" id="579a65b9-00df-4e52-9ab3-de4de1218935.1" configVersion="5c4d31d3ec703d4095a89cb87fb260c900000000"/>
+		<Metadata name="Catalog.БанковскиеСчета.Form.ФормаВыбора" id="6425a3b8-9bae-4fd4-aa02-f56116d7244f" configVersion="9e910ded18d83f42a71dfd1f4dfdc85900000000"/>
+		<Metadata name="Catalog.БанковскиеСчета.Form.ФормаВыбора.Form" id="6425a3b8-9bae-4fd4-aa02-f56116d7244f.0" configVersion="22a4d77e4f633a4091d83478087b156c00000000"/>
+		<Metadata name="Catalog.БанковскиеСчета.Form.ФормаСписка" id="3cf4b65c-6abd-4867-94b0-b96f4ca4ba2c" configVersion="7245e84b5730af429eaa8e56edffc8cd00000000"/>
+		<Metadata name="Catalog.БанковскиеСчета.Form.ФормаСписка.Form" id="3cf4b65c-6abd-4867-94b0-b96f4ca4ba2c.0" configVersion="b635e040b6155445a5e7518c7008350600000000"/>
+		<Metadata name="Catalog.БанковскиеСчета.Form.ФормаЭлемента" id="a0473292-32c5-41bd-a7dd-c384242ab88e" configVersion="e4fd8dadbd053149b67e513a08e7c49100000000"/>
+		<Metadata name="Catalog.БанковскиеСчета.Form.ФормаЭлемента.Form" id="a0473292-32c5-41bd-a7dd-c384242ab88e.0" configVersion="1f0dc94ca23aac4d9c61b03ab5ae710200000000"/>
+		<Metadata name="Catalog.БанковскиеСчета.Form.ФормаЭлемента.Help" id="a0473292-32c5-41bd-a7dd-c384242ab88e.1" configVersion="33ce790ee5edab40994fe28de7ddc6c800000000"/>
 		<Metadata name="Catalog.Валюты" id="1d6b8425-360c-4ab1-9bab-cc9a3b590bb2" configVersion="c8f936bcf3d4e1498bea75cb3afe82d100000000">
 			<Metadata name="Catalog.Валюты.Attribute.НаименованиеПолное" id="231d3950-f363-4e63-83cd-8ddb81507c27"/>
 			<Metadata name="Catalog.Валюты.Attribute.ФормулаРасчетаКурса" id="5a088468-4065-4e0c-9b84-1162de8d3fdd"/>
@@ -503,12 +542,12 @@
 		</Metadata>
 		<Metadata name="Catalog.Контрагенты.Form.ФормаВыбора" id="9e042028-1f87-477e-9556-d6d8d2174c21" configVersion="4bf46b0df6a51342ba87f0bdb133cf0700000000"/>
 		<Metadata name="Catalog.Контрагенты.Form.ФормаВыбора.Form" id="9e042028-1f87-477e-9556-d6d8d2174c21.0" configVersion="7eb2833477124c45a3a78e66952ec42200000000"/>
-		<Metadata name="Catalog.Контрагенты.Form.ФормаГруппы" id="67d3bc24-cb9b-4e7a-ba7a-96073d2b862d" configVersion="92840804694ef3469c16a1dce672609400000000"/>
-		<Metadata name="Catalog.Контрагенты.Form.ФормаГруппы.Form" id="67d3bc24-cb9b-4e7a-ba7a-96073d2b862d.0" configVersion="70874e177818a343a81e1e004bc1580b00000000"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаГруппы" id="67d3bc24-cb9b-4e7a-ba7a-96073d2b862d" configVersion="ed6426a4c2592f40b8608e1cef64eff300000000"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаГруппы.Form" id="67d3bc24-cb9b-4e7a-ba7a-96073d2b862d.0" configVersion="7b72095b33baaa49bb3bb241e1824eed00000000"/>
 		<Metadata name="Catalog.Контрагенты.Form.ФормаСписка" id="ed836c86-af85-4d05-8e67-45f529d3fb66" configVersion="e1a2803dbce78847bf733ffc38084fe300000000"/>
 		<Metadata name="Catalog.Контрагенты.Form.ФормаСписка.Form" id="ed836c86-af85-4d05-8e67-45f529d3fb66.0" configVersion="b0aef1b7406bf2409467a03886b09f1500000000"/>
-		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента" id="4cd65a9a-6ea1-400e-badf-1ad68e1bff44" configVersion="85cecb4028d721469df5b0bc7299a70a00000000"/>
-		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Form" id="4cd65a9a-6ea1-400e-badf-1ad68e1bff44.0" configVersion="81a2746950858a4c9ea4cad731e0395800000000"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента" id="4cd65a9a-6ea1-400e-badf-1ad68e1bff44" configVersion="ceaed33090245e48a9eb91722458b0d100000000"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Form" id="4cd65a9a-6ea1-400e-badf-1ad68e1bff44.0" configVersion="e115394de801dd44892d9a6aa4dae7c100000000"/>
 		<Metadata name="Catalog.Контрагенты.ManagerModule" id="1bf349c2-f4f2-40f6-ae0b-457a9fd428d3.3" configVersion="214ab1c3a071274baf469013f55c80b500000000"/>
 		<Metadata name="Catalog.НаборыГруппДоступа" id="d903569d-911d-4277-a26f-afe2bf67eb09" configVersion="116edfbfaf36c145b0bd5ad1a3c5bbbd00000000">
 			<Metadata name="Catalog.НаборыГруппДоступа.Attribute.НовыйНаборГруппДоступа" id="02910dcd-9e66-4239-a421-8067faf59577"/>
@@ -599,8 +638,8 @@
 		<Metadata name="Catalog.Организации.Form.ФормаВыбора.Form" id="69ad0b32-ed90-4d9c-8cb4-904f7a68dcef.0" configVersion="c7289b13edb12b4d9f3dfc530fef8f4400000000"/>
 		<Metadata name="Catalog.Организации.Form.ФормаСписка" id="f743866b-b304-4b73-84ec-34fd67db7951" configVersion="879dfacd8390ee47b02eb9f968e7bfb100000000"/>
 		<Metadata name="Catalog.Организации.Form.ФормаСписка.Form" id="f743866b-b304-4b73-84ec-34fd67db7951.0" configVersion="628ef08302e2da429c2cac2b86825ed000000000"/>
-		<Metadata name="Catalog.Организации.Form.ФормаЭлемента" id="c3e8e081-5135-496c-8ead-95d0892010a5" configVersion="8464c9a97a8e0f4b9e8077377b97714c00000000"/>
-		<Metadata name="Catalog.Организации.Form.ФормаЭлемента.Form" id="c3e8e081-5135-496c-8ead-95d0892010a5.0" configVersion="ac27b18f40a3b147bd7c7fbb824be94600000000"/>
+		<Metadata name="Catalog.Организации.Form.ФормаЭлемента" id="c3e8e081-5135-496c-8ead-95d0892010a5" configVersion="96a08f6771899246b9b829b46c2df98300000000"/>
+		<Metadata name="Catalog.Организации.Form.ФормаЭлемента.Form" id="c3e8e081-5135-496c-8ead-95d0892010a5.0" configVersion="b3ba494e0c04874dbbba5843089dfcee00000000"/>
 		<Metadata name="Catalog.Организации.ManagerModule" id="c159d5d0-45b7-436f-8aa1-eec16a2c2eeb.3" configVersion="0a29fccccc02ba41b7c4debe27e9b07100000000"/>
 		<Metadata name="Catalog.ОрганизацииПрисоединенныеФайлы" id="d2b59713-c3d2-4ba4-9835-b12270a56d57" configVersion="1c31e27bd0c42a418b80fa65b601bbde00000000">
 			<Metadata name="Catalog.ОрганизацииПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Отпечаток" id="0388606c-783d-48fd-a5fc-2ea6162d0a0d"/>

@@ -317,4 +317,17 @@
 			<SavedData>true</SavedData>
 		</Attribute>
 	</Attributes>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>Catalog.БанковскиеСчета.StandardCommand.OpenByValue</Command>
+				<Type>Auto</Type>
+				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
 </Form>
