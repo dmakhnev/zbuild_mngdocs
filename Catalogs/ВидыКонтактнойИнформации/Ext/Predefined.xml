@@ -1,5 +1,43 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.9">
+	<Item id="357e64ff-deff-43ab-bfad-59a7d1fdd0b2">
+		<Name>СправочникКонтактныеЛица</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Контактные лица"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="f596ed75-b932-4a63-870e-46f759bc0396">
+				<Name>SkypeКонтактногоЛица</Name>
+				<Code/>
+				<Description>Skype</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="bae97f82-5dd9-4a51-bb79-23b085d70319">
+				<Name>АдресКонтактногоЛица</Name>
+				<Code/>
+				<Description>Адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="d303f051-2c3a-4912-8e65-610b54f9d4dc">
+				<Name>ТелефонКонтактногоЛица</Name>
+				<Code/>
+				<Description>Телефон</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3b6a0319-a6bf-49ac-b363-7d883115c10f">
+				<Name>ФаксКонтактногоЛица</Name>
+				<Code/>
+				<Description>Факс</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="357ce2ec-b31a-4d98-bfb3-4eae086b934f">
+				<Name>EmailКонтактногоЛица</Name>
+				<Code/>
+				<Description>Электронная почта</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
 	<Item id="35b8c715-62dd-4c95-8f5c-3f78412f25d9">
 		<Name>СправочникКонтрагенты</Name>
 		<Code/>
