@@ -21,6 +21,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделУправлениеДокументами</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ЮридическоеФизическоеЛицо</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыКонтактныхЛиц</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ПолФизическогоЛица</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

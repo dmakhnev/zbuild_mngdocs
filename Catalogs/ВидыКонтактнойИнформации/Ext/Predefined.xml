@@ -146,4 +146,36 @@
 			</Item>
 		</ChildItems>
 	</Item>
+	<Item id="90cd1955-ca0a-404a-b6cf-c7c4784ee16c">
+		<Name>СправочникФизическиеЛица</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Физические лица"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="65116f3b-cf3f-435b-9df4-0da6084f6404">
+				<Name>SkypeФизическогоЛица</Name>
+				<Code/>
+				<Description>Skype</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="bfd79dfb-3825-46e8-a3ae-e90960a9ea54">
+				<Name>АдресФизическогоЛица</Name>
+				<Code/>
+				<Description>Адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0628efdc-0b62-4f7d-9fc1-99b0595ed527">
+				<Name>ТелефонФизическогоЛица</Name>
+				<Code/>
+				<Description>Телефон</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ddae7492-839c-4ee6-88dc-8f39a2b2d127">
+				<Name>EmailФизическогоЛица</Name>
+				<Code/>
+				<Description>Электронная почта</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
 </PredefinedData>
