@@ -1631,8 +1631,8 @@
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыСлужебныйВызовСервера.Module" id="3b033d29-0de7-49dd-90bc-f414b28426d7.0" configVersion="05a13dabd0743c49aa93f24a486c085a00000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыСлужебныйПовтИсп" id="97aaede5-d32f-4eba-b0e0-5ae5f094a8b7" configVersion="37ef274af86b02408c659c8da936008600000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыСлужебныйПовтИсп.Module" id="97aaede5-d32f-4eba-b0e0-5ae5f094a8b7.0" configVersion="533c482f35200a45aefe6a307930b90d00000000"/>
-		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыУД" id="b3921fce-30af-47f3-97c5-f2949b41b46e" configVersion="6bb74554cd177e449c194b3f693d995900000000"/>
-		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыУД.Module" id="b3921fce-30af-47f3-97c5-f2949b41b46e.0" configVersion="42ad3e9513b2c6459b29fe21c2fa260600000000"/>
+		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыУД" id="b3921fce-30af-47f3-97c5-f2949b41b46e" configVersion="a97a6b8bdd94f74b95216dd13681e1f500000000"/>
+		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыУД.Module" id="b3921fce-30af-47f3-97c5-f2949b41b46e.0" configVersion="5938896b5397e8448855aa2255622bb200000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="75e77f99-b9d1-4bc0-93aa-c77a93d760d3" configVersion="1d589d0f350c1e4d8e522db5f21933cf00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="75e77f99-b9d1-4bc0-93aa-c77a93d760d3.0" configVersion="2f09d04ee41ebe4e898eda79c0d6a4ad00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера" id="a2c36563-126d-4c3a-9714-5b7a4903073b" configVersion="b9a188b3e4b369499864906aba20dd7400000000"/>
@@ -2433,7 +2433,7 @@
 		<Metadata name="CommonTemplate.КомпонентаПечатиQRКода.Template" id="1ff8210b-26c5-4429-b580-7c6ec7c9b63a.0" configVersion="5084f7f10a76d744bedbb2f7d9b2771d00000000"/>
 		<Metadata name="CommonTemplate.ПолучениеДереваОбработчиковОбновления" id="88b879b7-1bb3-4478-b569-35bdb5c56939" configVersion="0fff98f72032fc40b2aa1ab10588a65c00000000"/>
 		<Metadata name="CommonTemplate.ПолучениеДереваОбработчиковОбновления.Template" id="88b879b7-1bb3-4478-b569-35bdb5c56939.0" configVersion="73b7fd4ef2cb024098cefe4bfd7090bb00000000"/>
-		<Metadata name="Configuration.УправлениеДокументами" id="6d0d1ded-6fb4-4134-8643-c42e537f7c7a" configVersion="41fd64b1d159e04aaf3e51ccc47d1c5b00000000"/>
+		<Metadata name="Configuration.УправлениеДокументами" id="6d0d1ded-6fb4-4134-8643-c42e537f7c7a" configVersion="f59ccb4ea216b244ad893281303fc95600000000"/>
 		<Metadata name="Configuration.УправлениеДокументами.CommandInterface" id="8cf53288-2067-4904-a7c5-159469f02076.a" configVersion="0cdb9fdde95e3c41bfbf47d7153a5c7100000000"/>
 		<Metadata name="Configuration.УправлениеДокументами.ExternalConnectionModule" id="8cf53288-2067-4904-a7c5-159469f02076.5" configVersion="920a29be0fe26d4cb1a638c1171b0efa00000000"/>
 		<Metadata name="Configuration.УправлениеДокументами.MainSectionPicture" id="8cf53288-2067-4904-a7c5-159469f02076.c" configVersion="1a10eba0c2d231428b0d168d9525bfd600000000"/>
